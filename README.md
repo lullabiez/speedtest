@@ -1,8 +1,6 @@
 # SPEEDTEST
 Speedtest by Ookla Openwrt pada CLI
 # Cara Instal
-1. wget https://github.com/lullabiez/speedtest/raw/main/speedtest
-2. chmod +X speedtest
-3 mv speedtest /usr/bin/speedtest
+wget -O /usr/bin/speedtest wget https://github.com/lullabiez/speedtest/raw/main/speedtest && chmod +x speedtest
 # Cara menjalankan
 ketik speedtest lalu Enter pada CLI
